@@ -93,7 +93,7 @@ p {
 }
 
 .menu ul ul {
-    z-index: 1;
+    z-index: 1000;
     background: #020087;
     visibility: hidden;
     opacity: 0;
@@ -114,6 +114,7 @@ p {
 }
 
 .menu ul ul ul {
+    z-index: 1000;
     background: #020087;
     visibility: hidden;
     opacity: 0;
