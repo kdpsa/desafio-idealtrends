@@ -281,6 +281,7 @@ main {
     }
 
     .content__text {
+        word-wrap: break-word;
         width: auto;
         padding: 10px;
         height: auto;
@@ -296,16 +297,15 @@ main {
     }
 
     .boxes p {
-        width: 250px;
+        width: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
 
     .boxes img {
-        width: 100%;
         margin: 0.740em;
-        width: 120px;
+        width: 100px;
         border-radius: 3px;
     }
 
